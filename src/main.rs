@@ -35,7 +35,7 @@ impl BasicApp {
         nwg::modal_info_message(&self.window, "Goodbye", &format!("Goodbye {}", self.name_edit.text()));
         nwg::stop_thread_dispatch();
     }
-
+    // here
 }
 
 fn main() {
